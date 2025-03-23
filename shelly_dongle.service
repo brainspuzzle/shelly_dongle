@@ -1,0 +1,14 @@
+[Unit]
+Description=Shelly BLE Dongle Controller
+After=bluetooth.target
+
+[Service]
+ExecStart=/home/shelly/shelly_dongle/venv/bin/python /home/shelly/shelly_dongle/rpi_ble_controller.py
+WorkingDirectory=/home/shelly/shelly_dongle
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=shelly
+
+[Install]
+WantedBy=multi-user.target

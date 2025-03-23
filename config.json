@@ -1,0 +1,10 @@
+{
+  "wifi": {
+    "ssid": "TavoTinklas",
+    "password": "slaptazodis123"
+  },
+  "devices": [
+    {"name": "Virtuvės šviesa", "room": "Virtuvė", "used": false},
+    {"name": "Svetainės lempa", "room": "Svetainė", "used": false}
+  ]
+}
